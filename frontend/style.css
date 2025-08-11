@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+#projectTitle{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+.project-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+input{
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button{
+    padding: 10px 15px;
+    background-color: #032b55;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#projectList {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none; /* Remove default bullets */
+}
+
+/* Each project item */
+#projectList li {
+    background: #f8f9fa;         
+    margin-bottom: 10px;       
+    padding: 12px 16px;          
+    border-radius: 6px;          
+    border: 1px solid #ddd;      
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); 
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
