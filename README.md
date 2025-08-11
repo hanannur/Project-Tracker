@@ -22,7 +22,7 @@
 - EXPRESS.JSON
 
 4. HOW TO RUN  
-   To run the Bootcamp Project Tracker, start by setting up the backend. Open a terminal in the backend/ folder and run npm install to install dependencies. Then, create a .env file in the same folder with the necessary environment variables, such as PORT=3000 and APP_NAME=Bootcamp Project Tracker. Once that's done, start the server using node server.js or nodemon server.js if you have Nodemon installed. For the frontend, navigate to the frontend/ folder and open index.html in your browser. The app will automatically fetch and display existing projects from the backend, and you can use the form to add new ones, which will update the list in real time.
+   To run the Bootcamp Project Tracker, start by setting up the backend. Open a terminal in the backend/ folder and run npm install to install dependencies.  Once that's done, start the server using node index.js or nodemon index.js if you have Nodemon installed. For the frontend, navigate to the frontend/ folder and open index.html in your browser. The app will automatically fetch and display existing projects from the backend, and you can use the form to add new ones, which will update the list in real time.
 
 5. TESTING CHECKLIST
 
